@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:1111
+      config:
+        server-addr: 127.0.0.1:1111
+        file-extension: yaml
+##        group: TEST_GROUP
+#        namespace: 802fa1df-a486-4a3e-9671-f4d707e467d8
