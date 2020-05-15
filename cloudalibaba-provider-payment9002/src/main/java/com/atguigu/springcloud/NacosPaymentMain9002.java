@@ -2,23 +2,20 @@ package com.atguigu.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * <h3>cloud2020</h3>
- * <p>${description}</p>
+ * <p>主启动类</p>
  *
  * @author: sangchunfeng
- * @date: 2020-05-08 13:58
+ * @date: 2020-05-08 11:19
  * @version: 1.0
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-public class OrderConsulMain81 {
-
+public class NacosPaymentMain9002 {
     public static void main(String[] args) {
-        SpringApplication.run(OrderConsulMain81.class, args);
+        SpringApplication.run(NacosPaymentMain9002.class, args);
     }
-
 }

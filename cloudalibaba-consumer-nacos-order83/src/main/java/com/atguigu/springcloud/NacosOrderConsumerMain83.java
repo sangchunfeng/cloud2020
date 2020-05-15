@@ -2,7 +2,6 @@ package com.atguigu.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
@@ -10,15 +9,13 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * <p>${description}</p>
  *
  * @author: sangchunfeng
- * @date: 2020-05-08 13:58
+ * @date: 2020-05-15 10:08
  * @version: 1.0
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-public class OrderConsulMain81 {
-
+public class NacosOrderConsumerMain83 {
     public static void main(String[] args) {
-        SpringApplication.run(OrderConsulMain81.class, args);
+        SpringApplication.run(NacosOrderConsumerMain83.class, args);
     }
-
 }
