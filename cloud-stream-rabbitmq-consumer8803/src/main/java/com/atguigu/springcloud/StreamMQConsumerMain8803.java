@@ -9,13 +9,13 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * <p>${description}</p>
  *
  * @author: sangchunfeng
- * @date: 2020-05-14 11:30
+ * @date: 2020-05-14 14:11
  * @version: 1.0
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-public class StreamRabbitProviderMain8801 {
+public class StreamMQConsumerMain8803 {
     public static void main(String[] args) {
-        SpringApplication.run(StreamRabbitProviderMain8801.class, args);
+        SpringApplication.run(StreamMQConsumerMain8803.class, args);
     }
 }
