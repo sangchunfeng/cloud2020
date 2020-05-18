@@ -32,7 +32,7 @@ public class RateLimitController {
 
     @GetMapping("/byurl")
     @SentinelResource(value = "byUrl",
-                       blockHandlerClass = CustomerBlockHandler.class,
+                      blockHandlerClass = CustomerBlockHandler.class,
                       blockHandler = "handlerException2")
     public CommonResult byUrl() {
         return new CommonResult(200, "按URL访问", new Payment(2020L, "serial001"));
