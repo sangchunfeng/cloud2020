@@ -62,7 +62,7 @@ spring:
 
 # Mybatis基础配置
 mybatis:
-  type-aliases-package: com.atguigu.springcloud.pojo
+  type-aliases-package: com.atguigu.springcloud.domain
   mapper-locations: classpath:mapper/*.xml
 
 management:
